@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Tabla de prioridades CSS</title>
+</head>
+<body>
+    <h1>Las prioridades para aplicar estilos son:</h1>
+    <hr>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>#Prioridad</th>
+            <th>Origen</th>
+            <th>Selector/Ejemplo</th>
+        </tr>
+        <tr style="background-color: gray;">
+            <td class="morado">1</td>
+            <td class="naranja">Estilos en el mismo elemento</td>
+            <td class="verde">style/style="color:red"</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hojas de estilo + importante</td>
+            <td>!important</td>
+        </tr>
+        <tr style="background-color: gray;">
+            <td class="morado">3</td>
+            <td class="naranja">Inline</td>
+            <td class="verde">Style="color:red"</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>id nesting</td>
+            <td>h1#lemento{color:red;}</td>
+        </tr>
+        <tr style="background-color: gray;">
+            <td class="morado">5</td>
+            <td class="naranja">id</td>
+            <td class="verde">#element</td>
+        </tr>
+        <tr>
+            <td >6</td>
+            <td>class nesting</td>
+            <td>h1 element{color:red;}</td>
+        </tr>
+        <tr style="background-color: gray;">
+            <td class="morado">7</td>
+            <td class="naranja">class</td>
+            <td class="verde">element{color:red;}</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>tag nesting</td>
+            <td></td>
+        </tr>
+        <tr style="background-color: gray;">
+            <td class="morado">9</td>
+            <td class="naranja">tag</td>
+            <td class="verde">h1{color:red;}</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

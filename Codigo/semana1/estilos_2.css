@@ -1,0 +1,37 @@
+/*prioridad 5 (tag)*/
+p {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/*Prioridad 4 (clase)*/
+.par {
+    color: blue;
+}
+
+/*Prioridad 2*/
+#p2 {
+    color: greenyellow;
+}
+
+/*Prioridad 3 (tag + clase)*/
+p.par{
+    color: rgb(172, 8, 172);
+}
+
+/*prioridad 1 (tag + id)*/
+p#p2{
+    color: orange;
+}
+
+/*Prioridad 0 (class +id)*/
+.par#p2 {
+    color: pink;
+}
+
+/*Prioridad -1 (tag+class+id)*/
+p.par#p2 {
+    color:skyblue;
+    }

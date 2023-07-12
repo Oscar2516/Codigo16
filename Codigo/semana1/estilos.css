@@ -1,0 +1,44 @@
+h1 {
+    color: gray;
+    text-decoration: underline;
+}
+
+h2 {
+    color:blue;
+}
+
+#cabecera1 {
+    color: red;
+}
+
+.parrafos_rojos {
+    color:pink !important;
+    font-weight: 600;
+}
+
+th {
+    color:blue;
+    font-weight: 500;
+    background-color: rgb(235, 207, 48);
+}
+
+td{
+    text-align: center;
+}
+
+.naranja{
+    color:orange;
+}
+
+.verde{
+    color:green;
+}
+
+.morado{
+    color:purple;
+}
+
+tr:hover{
+    background-color: black !important;
+    color: white !important;
+}
