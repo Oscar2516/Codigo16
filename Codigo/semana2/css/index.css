@@ -3,16 +3,16 @@ h1{
     /*en css tenemos la opción de poner varios tipos de letra*/
     /*para que si la primera no existe css busque en la segunda*/
     /*y asi sucesivamente*/
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 45px;
-    font-weight: 100;
+    font-family: 'Handjet',cursive;
+    font-size: 60px;
+    font-weight: 400;
     text-decoration: underline;
 }
 
 .parrafo{
     font-family: 'Dank Mono', monospace;
     font-size: 32px;
-    font-weight: bold;/*el font weight puede recibir numeros del 1 al 900, solo numero*/
+    font-weight: bold;/*el font weight puede recibir numeros del 100 al 900, solo numero*/
     /*!Importante: al poner peso en font-weight solo se pone numero, no unidad*/
 }
 
@@ -46,6 +46,7 @@ ul{
 
 .span-2{
     text-decoration: overline;
+    text-transform: capitalize;
 }
 
 .span-3{
@@ -53,6 +54,8 @@ ul{
 }
 
 .span-4{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
     text-decoration: line-through;
     text-decoration-color: red;
 }
@@ -63,4 +66,45 @@ ul{
     text-decoration-color: #fff;
     color:blue;
     text-transform: uppercase;
+}
+
+/*para que un CCS pueda leer una fuente desde un archivo se usa @font-face, para cargar
+un fuente externa y darle un nombre para su uso*/
+@font-face {
+    /*En este caso font-family es el nombre de la fuente*/
+    font-family: 'Big Shoulders Inline Text', cursive;
+    /*src es el lugar donde esta alojado la fuente*/
+    src: url("../fonts/BigShouldersInlineText-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Kablammo',cursive;
+    src: url("../fonts/Kablammo-Regular-VariableFont_MORF.ttf");
+}
+
+@font-face{
+    font-family: 'Luckiest Guy', cursive;
+    src: url("../fonts/LuckiestGuy-Regular.ttf");
+}
+
+.title-2{
+    font-family: 'Big Shoulders Inline Text';
+    font-size: 50px;
+    
+
+}
+
+.parrafo-2{
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+@font-face {
+    font-family: "Bagel Fat One";
+    src: url(../fonts/BagelFatOne-Regular.ttf);
+}
+
+.span-6{
+    font-family: 'Bagel Fat One';
+    font-size: 40px;
+    color: rgb(223, 146, 5);
 }
