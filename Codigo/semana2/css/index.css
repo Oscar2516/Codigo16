@@ -1,0 +1,33 @@
+h1{
+    /*que pasa si una fuente no existe*/
+    /*en css tenemos la opción de poner varios tipos de letra*/
+    /*para que si la primera no existe css busque en la segunda*/
+    /*y asi sucesivamente*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.parrafo{
+    font-family: 'Dank Mono', monospace;
+    font-size: 32px;
+    font-weight: bold;/*el font weight puede recibir numeros del 1 al 900, solo numero*/
+    /*!Importante: al poner peso en font-weight solo se pone numero, no unidad*/
+}
+
+/*
+Para los colores se pueden utilizar los codigos:
+Hexadecimal
+RGB -> Red Green Blue
+RGBA -> Red Green Blue Alpha
+Alpha -> opacidad, va de 0 a 1
+hsl -> Hue Saturation Lightness
+*/
+
+.link-a{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none; /*al poner none en una propiedad la estamos invalidando*/
+    color: rgb(168, 17, 255);
+}
