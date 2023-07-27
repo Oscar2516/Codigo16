@@ -31,3 +31,36 @@ hsl -> Hue Saturation Lightness
     text-decoration: none; /*al poner none en una propiedad la estamos invalidando*/
     color: rgb(168, 17, 255);
 }
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+    background-color: rgb(168, 17,255, 0.3);
+}
+
+.span-1{
+    text-decoration: line-through;
+}
+
+.span-2{
+    text-decoration: overline;
+}
+
+.span-3{
+    text-decoration: underline;
+}
+
+.span-4{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.span-5{
+    text-decoration: overline;
+    background-color: rgb(14, 233, 233);
+    text-decoration-color: #fff;
+    color:blue;
+    text-transform: uppercase;
+}
