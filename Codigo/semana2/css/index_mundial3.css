@@ -1,0 +1,36 @@
+h1{
+    font-family: initial;
+    font-size: 60px;
+    font-weight: 500px;
+    text-decoration: underline;
+    background-color: brown;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    font-weight: 200px;
+    text-decoration: solid;
+    
+}
+
+h3{
+    background-color: rgb(63, 245, 26);
+    font-weight: bold;
+}
+
+th{
+    background-color: rgb(58, 55, 235);
+    color: aliceblue;
+}
+
+.tabla_grupo_a{
+    background-color: blueviolet;
+    color: aqua;
+}
+
+.tabla_grupo_b{
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgb(236, 155, 4);
+}
