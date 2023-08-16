@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana;
+}
+
+ul {
+    padding: 20px;
+}
+
+ul li{
+    display: inline;
+}
+
+nav {
+    background-color: #333;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+
+    /*!Ojo: No tiene unidad de medida*/
+    z-index: 1;
+}
+/*!Nota: al poner el atribuot en fixed convertimos al elemento en un un inline*/
+
+/*Como actuivamos la opción de usr top, left, right, bottom?*/
+/*!Recordar que para activar esas 4 opciones debemos tener un position, ya sea relative o absulte*/
+/*!lo que importa es que el padre tenga relative o absolute*/
+
+div {
+    position: relative;
+    top: 100px;
+}
+
+/*Para que el menu quedde por encima de todo demas dbemos usar z-index*/
+
+#nosotros {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 238, 255);
+}

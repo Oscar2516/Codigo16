@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana;
+}
+
+.bg {
+    border: solid;
+    height: 300px;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-green {
+    background-color: green;
+}
+
+.bg-img {
+    background: url("../../semana1/images/taza\ de\ javascript.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-img-goku {
+    background: url("../images/goku-house.jpg");
+    /*Vamos a ponerle un alto de 500px a este div*/
+    height: 500px;
+    /*cover ajusta la imgane de fondo al ancho del div*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
