@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(190, 190, 190);
+}
+
+h1 {
+    text-shadow: 10px 10px 5px orangered;
+    border:5px black solid;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#contenedor {
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(to right,red,blue 50%,pink 100%);
+    margin: auto;
+    /*como el height es 200px
+    red va de cero hasta 50% del total, o sea 100px
+    yellow va desde 50% hasta 80%, o sea 160px
+    blue desde 80% hasta 100%, es decir hasta los 200px*/
+}
+
+.sombra {
+    box-shadow: 40px 40px 10px -10px yellow;
+    /*
+    1er parametro: eje x (default a la derecha)
+    2do paramero: eje y (default hacia abajo)
+    3er parametro: difuminación
+    4to parametro: tamaño de la sombra
+    5to parametro: propagación o color
+    */
+
+    text-shadow: 10px 10px 5px yellow;
+}
+
+#bandera_peru {
+    height: 200px;
+    width: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    background: linear-gradient(to right,red 33%,white 33%,white 66%,red 66%);
+    box-shadow: 20px 20px;
+}
+
+#circulo {
+    width: 200px;
+    height: 200px;
+    /*background-color: blue;*/
+    background: radial-gradient(red,white,red);
+    margin: 60px auto;
+    border-radius: 100px;
+    /*border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;*/
+
+    /*Aplicando filtros*/
+    /*filter: blur(10px);*/
+    /*aplicadno filtro de escala de grises*/
+    filter:blur(10px) grayscale(80%);
+
+
+
+}
+
+#bandera_peru:hover {
+    background: linear-gradient(to top, red 33%,white 33%,white 66%,red 66%);
+    box-shadow: none;
+}
+
+#circulo:hover {
+    background: none;
+    background-color: blue;
+    filter: none;
+}
+
+
+h1:hover {
+    text-decoration:underline;
+}

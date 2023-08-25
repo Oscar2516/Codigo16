@@ -27,9 +27,9 @@ header {
     /*!Ojo: No tiene unidad de medida*/
     z-index: 1;
 }
-/*!Nota: al poner el atribuot en fixed convertimos al elemento en un un inline*/
+/*!Nota: al poner el atribut0 en fixed convertimos al elemento en un un inline*/
 
-/*Como actuivamos la opción de usr top, left, right, bottom?*/
+/*Como activamos la opción de usr top, left, right, bottom?*/
 /*!Recordar que para activar esas 4 opciones debemos tener un position, ya sea relative o absulte*/
 /*!lo que importa es que el padre tenga relative o absolute*/
 
@@ -38,7 +38,7 @@ div {
     top: 100px;
 }
 
-/*Para que el menu quedde por encima de todo demas dbemos usar z-index*/
+/*Para que el menu quede por encima de todo demas debemos usar z-index*/
 
 #nosotros {
     height: 100vh;

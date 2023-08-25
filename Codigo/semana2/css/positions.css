@@ -60,7 +60,7 @@ es decir su ancho y alto*/
     float: right;
 }
 
-/*Nota: sabemos que la foto mide 180px x 180px y el cuadrado 8udiv) que la contiene
+/*Nota: sabemos que la foto mide 180px x 180px y el cuadrado (div) que la contiene
 mide 200px x 200px. Para que la foto crezca y ocupe todo el div podemos usar la propiedad
 background-size:cover*/
 .escudo {
